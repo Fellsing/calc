@@ -1,0 +1,38 @@
+
+<div id="screen">
+  <div id="last" ></div>
+  <div id="middle"></div>
+  <div id="first"></div>
+  <input type="text" id="current" size="40" placeholder="Введите ваше выражение" [value] = "value">
+
+</div>
+
+
+<div id = "buttons">
+  <button (click)="seven()">7</button>
+  <button (click)="eight()">8</button>
+  <button (click)="nine()">9</button>
+  <button id="delenie" (click)="delenie()">/</button>
+  <button>←</button>
+  <button>C</button><br>
+
+  <button (click)="four()">4</button>
+  <button (click)="five()">5</button>
+  <button (click)="six()">6</button>
+  <button id="umnojenie" (click)="umnojenie()">x</button>
+  <button>(</button>
+  <button>)</button><br>
+
+  <button (click)="one()">1</button>
+  <button (click)="two()">2</button>
+  <button (click)="three()">3</button>
+  <button id="minus" (click)="minus()">-</button>
+  <button>x²</button>
+  <button>√</button><br>
+
+  <button (click)="zero()">0</button>
+  <button>,</button>
+  <button>%</button>
+  <button id="summ" (click)="sum()">+</button>
+  <button class = "button_space" (click)="ravno()">=</button>
+</div>
